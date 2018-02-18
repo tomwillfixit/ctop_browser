@@ -1,12 +1,12 @@
-# Container Metrics using ctop and shellinabox
+# Concise Container Metrics using ctop and shellinabox
 
 ![Alt Text](https://github.com/tomwillfixit/ctop_browser/blob/master/ctop.gif)
 
 What is ctop?
 
-It is a top like interface for container metrics.  It can be run on the command line and is really useful if you just want to see what is currently running on a node and what resources each container is using.  
+ctop is available from https://ctop.sh and is described as "concise commandline monitoring for containers".
 
-Using shellinabox you can expose ctop to the browser.
+Ctop is a top like interface for container metrics. There are already a number of ways to view container metrics in the browser such as CAdvisor but ctop offers a nice simple and clean interface.  Using shellinabox you can expose ctop to the browser.
 
 # Getting started
 
