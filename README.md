@@ -17,6 +17,12 @@ Check Docker is installed
 ```
 docker info
 ```
+## In a rush ... 
+
+If you have zero interest in building the image then just run the following and open a browser : http://localhost:8888/ctop
+```
+docker run -d -P -v /var/run/docker.sock:/var/run/docker.sock thshaw/ctop
+```
 
 ## Build container image
 ```
